@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="calculator">
+        <h5 class="top_heading">Scientific Calculator</h5>
+        <div id="question" class="answer" style="overflow: hidden; margin-top: 15px;">Ans = 0</div>
+        <input type="text" placeholder="0" id="inputbox" readonly>
+    
+        <div class="small" id="small1">
+            <small>sin<sup>-1</sup></small>
+            <small>cos<sup>-1</sup></small>
+            <small>tan<sup>-1</sup></small>
+        </div>
+        <div id="btn1">
+            <button class="operator">sin</button>
+            <button class="operator">cos</button>
+            <button class="operator">tan</button>
+            <button class="operator" type="radio" id="degree">Deg</button>
+            <button class="operator" type="radio" id="radian">Rad</button>
+        </div>
+    
+        <div class="small" id="small2">
+            <small>y<sub>√x</sub></small>
+            <small style="margin-left: 5%;">3<sub>√x</sub></small>
+            <small style="margin-left: 5%;">√x</small>
+            <small style="margin-left: 5%;">π</small>
+            <small style="margin-left: 6%;">e</small>
+        </div>
+        <div id="btn2">
+            <button class="operator ac">x<sup>y</sup></button>
+            <button class="operator del">x<sup>3</sup></button>
+            <button class="operator">x<sup>2</sup></button>
+            <button class="operator">e<sup>x</sup></button>
+            <button class="operator">10<sup>x</sup></button>
+        </div>
+        <div class="small" id="small3">
+            <small style="margin-left: 22%;">√</small>
+            <small style="margin-left: 10%;">x<sup>-1</sup></small>
+        </div>
+        <div id="btn3">
+            <button class="operator ac" style="background-color: rgb(94, 107, 21); color: white;">AC</button>
+            <button class="operator del">^</button>
+            <button class="operator ac">n!</button>
+            <button class="operator ac" style="background-color: rgb(134, 40, 40); color: rgba(255, 255, 255, 0.9)">ln</button>
+            <button class="operator del" style="background-color: rgb(134, 40, 40); color: rgba(255, 255, 255, 0.9)">log</button>
+        </div>
+        <div>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="operator">+</button>
+            <button class="operator">DEL</button>
+        </div>
+        <div>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="operator">*</button>
+            <button class="operator">-</button>
+        </div>
+        <div>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="operator">=</button>
+            <button class="operator">/</button>
+        </div>
+        <div>
+            <button>0</button>
+            <button>.</button>
+            <button>%</button>
+            <button class="shiftBtn" style="width: 145px;">shift</button>
+        </div>
+    </div>
+
+    <script src="javaScript.js"></script>
+</body>
+</html>
